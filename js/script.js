@@ -40,9 +40,9 @@ function priceCalculation(elem) {
       options = [];
 
   if (elem.value === 'adapt' && elem.checked) {
-    mobileTemplates.disabled = true;
-  } else if (elem.value === 'adapt' && !elem.checked) {
     mobileTemplates.disabled = false;
+  } else if (elem.value === 'adapt' && !elem.checked) {
+    mobileTemplates.disabled = true;
 
   }
   // сбросить все значения при выборе типа сайта
